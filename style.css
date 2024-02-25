@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 223, 223);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 60px;
+}
+
+.nav #home {
+    border-bottom: 2px solid lightgreen;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav .logo {
+    margin-right: 60%;
+    color: lightgreen;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.firstimg {
+    height: 70vh;
+    /* background: url('https://blog.gunassociation.org/wp-content/uploads/2018/07/Basil-Medicinal-Herbs-300x201.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('https://blog.gunassociation.org/wp-content/uploads/2018/07/Basil-Medicinal-Herbs-300x201.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+}
+
+#pre {
+    font-size: 80px;
+    margin-right: 20px;
+    color: lightpink;
+    border: 1px solid white;
+    width: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#nxt {
+    font-size: 80px;
+    margin-left: 20px;
+    color: lightpink;
+    border: 1px solid white;
+    width: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.parafirst {
+    font-size: 12px;
+}
+
+.para {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.para2 {
+    font-size: 10px;
+}
+
+.firstimg .btn {
+    display: block;
+    margin-left: 520px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    background: none;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.firstthree {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstthree .box {
+    height: 400px;
+    margin: 10px 60px;
+    width: 250px;
+    background-color: white;
+}
+
+.box .image {
+    width: 250px;
+}
+
+#cucumber {
+    height: 170px;
+}
+
+#wateracress {
+    height: 240px;
+}
+
+.box h4 {
+    margin: 10px 10px;
+}
+
+.h4 {
+    margin-top: 33px;
+}
+
+.box p {
+    font-size: 14px;
+    margin: 10px 10px;
+}
+
+.btn2 {
+    background-color: lightgreen;
+    color: white;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    margin: 20px 10px;
+    display: block;
+    padding: 8px;
+}
+
+/*    SECOND Half  */
+
+.secondimg {
+    background: url('https://th.bing.com/th/id/OIP.QZkT7lrgOpT42OtijmEy5AHaE9?w=598&h=400&rs=1&pid=ImgDetMain');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.img1 {
+    width: 80px;
+}
+
+.img2 {
+    width: 95px;
+}
+
+.img3 {
+    width: 75px;
+}
+
+.img4 {
+    width: 50px;
+    margin-top: 13px;
+
+}
+
+.img5 {
+    width: 75px;
+}
+
+.img6 {
+    width: 150px;
+}
+
+.para1 {
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.para2 {
+    font-size: 18px;
+}
+
+/*                                   Footer                     */
+
+
+.footer {
+    color: white;
+    background: url('https://th.bing.com/th/id/OIP.Hcal1sHxmrz7A4VOmJzNqAAAAA?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxes {
+    display: flex;
+    height: 70vh;
+    margin-top: 50px;
+    position: relative;
+}
+
+.footbox {
+    margin-right: 20px;
+    color: white;
+    margin-top: 110px;
+    margin-left: 80px;
+}
+
+.footerpara {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.footerpara2 {
+    margin-top: 20px;
+    color: lightgreen;
+}
+
+.footbox li {
+    font-size: 12px;
+    list-style: none;
+}
+
+.line {
+    margin-top: 20px;
+}
+
+.footer input {
+    background: transparent;
+    padding: 8px;
+}
+
+.footer input::placeholder {
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.copyryt {
+    position: absolute;
+    top: 350px;
+    left: 84px;
+}
+
+span {
+    color: lightgreen;
+}
+
+.arrow {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 194px;
+    left: 960px;
+}
+
+.icons {
+    display: block;
+    height: 20px;
+    position: absolute;
+    top: 340px;
+    left: 1000px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: lightgreen;
+}
+
+.icons i {
+    margin-right: 20px;
+}
